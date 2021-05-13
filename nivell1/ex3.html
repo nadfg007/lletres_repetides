@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lletres repetides</title>
+
+</head>
+<body>
+
+    <h1>Exercici 3 de lletres repetides</h1>
+
+</body>
+<script>
+    //EXERCICI 03
+
+var nombre = ["N", "A", "D", "I", "A"];
+
+numeroLetras = {};
+
+   var letra = nombre.map(function(letra){
+
+    if(numeroLetras[letra]){
+        numeroLetras[letra]=numeroLetras[letra]+1;
+
+    } else{
+        numeroLetras[letra]=1;
+        
+    }
+          return numeroLetras.nombre;
+   })
+    console.log(numeroLetras);
+    
+    
+
+</script>
+</html>
